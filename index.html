@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="footer.css">
@@ -78,38 +79,38 @@
             <span onclick="toggleMenu()"  class="menu-icon"></span>
           </div>
 
-          <ul id="menu" class="Containermenu">
+          <ul id="menu" class="Containeritem3">
             <li class="X-icon"></li>
             <li>
               <a href="#Ev">
-                <span class="title">Ev</span>
+                <span onclick="toggleMenu()" class="title">Ev</span>
               </a>
             </li>
             <li>
               <a href="#AboutUs">
-                <span id="Haqqimizda" >Haqqımızda</span>
+                <span onclick="toggleMenu()" id="Haqqimizda" >Haqqımızda</span>
               </a>
             </li>
             <li>
               <a href="#OnfutureTv">
-                <span id="Videolar">Videolar</span>
+                <span onclick="toggleMenu()" id="Videolar">Videolar</span>
               </a>
             </li>
             <li>
               <a href="#Services">
-                <span id="Xidmetler">Xidmətlər</span>
+                <span onclick="toggleMenu()" id="Xidmetler">Xidmətlər</span>
               </a>
             </li>
             <li>
 
               <a href="#Karyera">
-                <span id="Karyera">Karyera</span>
+                <span onclick="toggleMenu()" id="Karyera">Karyera</span>
               </a>
             </li>
             <li>
 
               <a href="#Contact">
-                <span id="Elaqe">Əlaqə</span>
+                <span onclick="toggleMenu()" id="Elaqe">Əlaqə</span>
               </a>
             </li>
           </ul>
@@ -311,96 +312,97 @@
           </div>
         </div>
       </section>
+      <footer id="Contact">
+        <h1 id="Elaqe">Əlaqə</h1>
+        <div class="Contact_container">
+          <form >
+            <h3 id="Elaqeformu">Əlaqə Formu</h3>
+            <div class="Contact_item">
+              <div>
+                <label id="Ad">Ad</label>
+                <br />
+                <input title="Salam"
+                type="text"
+                />
+              </div>
+              <div>
+                <label id="Soyad">Soyad</label>
+                <br />
+                <input title="Salam"
+                type="text"
+                />
+              </div>
+            </div>
+            <div class="Epoct">
+              <label id="epoct">E-poçt</label>
+              <br />
+              <input title="Salam"
+              type="text"
+              />
+            </div>
+            <div class="Item_contact">
+              <label id="Mesaj">Mesajınız:</label>
+              <br />
+              <textarea placeholder="!" ></textarea>
+             
+            </div>
+            <a class="Wpbtn" target="blank" id="Mesajgonder" href="https://api.whatsapp.com/message/HZGGECLXLVOKI1?autoload=1&app_absent=0">
+              Mesaj göndər</a>
+          </form>
+  
+          <div class="Container_item">
+            <div class="Item_first">
+              <p id="Unvan">Ünvan</p>
+              <ul>
+             <li> <span>UL Przemyslowa 13, Krakow, Poland</span> </li>
+             <li><span id="Afbusiness">Af Business House Nizami 203, Baku, Azerbaijan (5ci mərtəbə)</span></li> 
+              </ul>
+            </div>
+            <div class="Item_second">
+              <p id="Telefon">Telefon</p>
+              <ul> 
+            <li> <a href="tel:+48 573 817 967">+48 573 817 967</a> <img class="Plimg" src="image/poland-flag-icon-64.png" alt='Poland flag'/><br/></li> 
+             <li><a href="tel:+994 70 434 74 24">+994 70 434 74 24</a>  <img class="Azeimg" src="image/azerbaijan-flag-icon-128.png" alt='Azerbaijan flag'/></li> 
+              </ul>
+            </div>
+            <div class="Item_third">
+              <p id="epoctunvan">E-poçt ünvanı</p>
+              <a href="mailto:onfuture.eu@gmail.com">onfuture.eu@gmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="Footer_Container">
+          <div class="Footer_Esas">
+          <div class="Footer_item1">
+            <p id="Suret">Sürətli Keçidlər</p>
+            <div>
+              <a id="Haqqimizda" href="#AboutUs"><span>Haqqımızda</span></a>
+              <a id="Karyera" href="#Karyera"><span>Karyera</span></a>
+              <a id="Xidmetler" href="#Services"><span>Xidmətlər</span></a>
+              <a id="Elaqe" href="#Footer"><span>Əlaqə</span></a>
+              <a href="#OnfutureTv"><span>Onfuture Tv</span></a>
+            </div>
+          </div>
+          <div class="Footer_item2">
+            <p id="Bizimle">Bizimlə qalın</p>
+            <div>
+            <a title="S" target="_blank"  rel="noopener noreferrer" href="https://www.facebook.com/groups/1187017308802438/user/100075870057856/"><span class="icon-facebook1"></span></a>
+            <a title="S" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/onfuture_consultancy/"><span class="icon-instagram1"></span></a>
+            <a title="S" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/onfuture-consultancy/"><span class="icon-linkedin1"></span></a>
+            <a title="S" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@onfutureconsultancy8292"><span class="icon-youtube"></span></a>
+            <a title="S" target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/message/HZGGECLXLVOKI1?autoload=1&app_absent=0"><span class="icon-whatsapp"></span></a>
+            </div>
+          </div>
+          <div class="Footer_item3">
+          <a href="tel: +48 573 817 967" class="Phone"><span>+48 573 817 967</span></a>
+          <a target="_blank"   rel="noopener noreferrer" href="https://goo.gl/maps/u64dxc8KuPYrsXN2A" class="icon-map"><span id="Unvanxerite">Ünvanımız xəritədə</span></a>
+  
+          </div>
+          </div>
+        </div>
+      </footer>
     </div>
-    <footer id="Contact">
-      <h1 id="Elaqe">Əlaqə</h1>
-      <div class="Contact_container">
-        <form >
-          <h3 id="Elaqeformu">Əlaqə Formu</h3>
-          <div class="Contact_item">
-            <div>
-              <label id="Ad">Ad</label>
-              <br />
-              <input title="Salam"
-              type="text"
-              />
-            </div>
-            <div>
-              <label id="Soyad">Soyad</label>
-              <br />
-              <input title="Salam"
-              type="text"
-              />
-            </div>
-          </div>
-          <div class="Epoct">
-            <label id="epoct">E-poçt</label>
-            <br />
-            <input title="Salam"
-            type="text"
-            />
-          </div>
-          <div class="Item_contact">
-            <label id="Mesaj">Mesajınız:</label>
-            <br />
-            <textarea placeholder="!" ></textarea>
-           
-          </div>
-          <a class="Wpbtn" target="blank" id="Mesajgonder" href="https://api.whatsapp.com/message/HZGGECLXLVOKI1?autoload=1&app_absent=0">
-            Mesaj göndər</a>
-        </form>
-
-        <div class="Container_item">
-          <div class="Item_first">
-            <p id="Unvan">Ünvan</p>
-            <ul>
-           <li> <span>UL Przemyslowa 13, Krakow, Poland</span> </li>
-           <li><span id="Afbusiness">Af Business House Nizami 203, Baku, Azerbaijan (5ci mərtəbə)</span></li> 
-            </ul>
-          </div>
-          <div class="Item_second">
-            <p id="Telefon">Telefon</p>
-            <ul> 
-          <li> <a href="tel:+48 573 817 967">+48 573 817 967</a> <img class="Plimg" src="image/poland-flag-icon-64.png" alt='Poland flag'/><br/></li> 
-           <li><a href="tel:+994 70 434 74 24">+994 70 434 74 24</a>  <img class="Azeimg" src="image/azerbaijan-flag-icon-128.png" alt='Azerbaijan flag'/></li> 
-            </ul>
-          </div>
-          <div class="Item_third">
-            <p id="epoctunvan">E-poçt ünvanı</p>
-            <a href="mailto:onfuture.eu@gmail.com">onfuture.eu@gmail.com</a>
-          </div>
-        </div>
-      </div>
-      <div class="Footer_Container">
-        <div class="Footer_Esas">
-        <div class="Footer_item1">
-          <p id="Suret">Sürətli Keçidlər</p>
-          <div>
-            <a id="Haqqimizda" href="#AboutUs"><span>Haqqımızda</span></a>
-            <a id="Karyera" href="#Karyera"><span>Karyera</span></a>
-            <a id="Xidmetler" href="#Services"><span>Xidmətlər</span></a>
-            <a id="Elaqe" href="#Footer"><span>Əlaqə</span></a>
-            <a href="#OnfutureTv"><span>Onfuture Tv</span></a>
-          </div>
-        </div>
-        <div class="Footer_item2">
-          <p id="Bizimle">Bizimlə qalın</p>
-          <div>
-          <a title="S" target="_blank"  rel="noopener noreferrer" href="https://www.facebook.com/groups/1187017308802438/user/100075870057856/"><span class="icon-facebook1"></span></a>
-          <a title="S" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/onfuture_consultancy/"><span class="icon-instagram1"></span></a>
-          <a title="S" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/onfuture-consultancy/"><span class="icon-linkedin1"></span></a>
-          <a title="S" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/@onfutureconsultancy8292"><span class="icon-youtube"></span></a>
-          <a title="S" target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/message/HZGGECLXLVOKI1?autoload=1&app_absent=0"><span class="icon-whatsapp"></span></a>
-          </div>
-        </div>
-        <div class="Footer_item3">
-        <a href="tel: +48 573 817 967" class="Phone"><span>+48 573 817 967</span></a>
-        <a target="_blank"   rel="noopener noreferrer" href="https://goo.gl/maps/u64dxc8KuPYrsXN2A" class="icon-map"><span id="Unvanxerite">Ünvanımız xəritədə</span></a>
-
-        </div>
-        </div>
-      </div>
-    </footer>
+   
   </div>
 
   <script src="app.js" >

@@ -28,6 +28,6 @@ window.addEventListener("scroll", function () {
         setMenuClass();
       }
 
-      setMenuClass();
+      setMenuClass(); 
 
       menuElement.addEventListener("click", toggleMenu);

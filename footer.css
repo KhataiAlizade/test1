@@ -345,6 +345,9 @@ form a:hover {
         gap: 18%;
         margin-left: 15%;
     }
+    .Footer_Container {
+        width: 92%;
+    }
 }
 @media (min-width: 750px) and
       (max-width: 1000px){
@@ -431,7 +434,7 @@ form a:hover {
         gap:22%;
     }
     .Contact_item input {
-     width: 134%;
+     width: 120%;
     }
     .Container_item {
         width: 95%;
@@ -439,7 +442,7 @@ form a:hover {
 
 
     .Footer_Container {
-        width: 89%;
+        width: 88%;
         margin-top: 35px;
         height: 24rem;
     }
@@ -532,7 +535,7 @@ form a:hover {
     }
 
     .Footer_Container {
-        width: 85%;
+        width: 80%;
     margin-top: 33px;
         height: 30rem;
         padding-top: 10px;
