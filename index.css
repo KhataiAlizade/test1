@@ -345,14 +345,18 @@ height: 0px;
       }
       .Contactspan {
         display: none;
-      }
-      
-     
+      } 
       .Containeritem3 li {
         display: none;
       }
     
-      
+      .fixed {
+        position: fixed;
+        top: 0;
+      }
+      .secondpart {
+        position: relative;
+      }
       .Containermenu {
         display: flex;
         flex-direction: column;
@@ -364,7 +368,7 @@ height: 0px;
         padding-right: 120px;
         padding-left: 30px;
         padding-top: 100px;
-        margin-right: -57px;
+        margin-right: -56px;
         margin-top: -95px;
         z-index: 999999;
       }
@@ -376,7 +380,7 @@ height: 0px;
         font-size: 20px;
         right: -10px;
         top: -10px;
-        z-index: 99999;
+        z-index: 99999999;
       }
      
       .Containermenu li span:hover {
@@ -389,7 +393,7 @@ height: 0px;
         display: block;
         right: 40px;
         top: 0px;
-        z-index: -2;
+        z-index: 1;
         font-size: 25px;
       }
       .thirdpart {
