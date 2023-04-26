@@ -395,6 +395,7 @@ height: 0px;
       .thirdpart {
         background-image: url('./image/OnfutureKollektiv9.jpg');
         background-size: 100% 100%;
+        width: 100%;
       }
       .OnfutureSlogan {
         top: 340Px;
@@ -413,6 +414,16 @@ height: 0px;
         padding: 12px 19px 12px 19px;
       }
      
+  }
+  @media ( max-width: 750px) {
+    .firstpart {
+      width: 103%;      
+    }
+    .thirdpart {
+      background-image: url('./image/OnfutureKollektiv9.jpg');
+      background-size: 100% 100%;
+      width: 103%;
+    }
   }
   @keyframes slide-in {
     from {
@@ -539,7 +550,7 @@ height: 0px;
       }
       .Onfuturelogo {
         width: 100%;
-        height: 30%;
+        height: 80%;
       }
       .Containeritem3 li {
         display: none;

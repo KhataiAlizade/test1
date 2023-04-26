@@ -553,6 +553,11 @@
           display: flex;
           flex-direction: column;
       }
+      .OnfutureTv {
+        width: 103%;
+        height: 22rem;
+    }
+      
       .Video_items1 ul {
           display: flex;
           flex-direction: column;
@@ -577,6 +582,13 @@
           margin-left: 17%;
       }
      }
+    @media (max-width: 600px) {
+        .OnfutureTv {
+            width: 114%;
+            height: 22rem;
+        }
+    }
+  
     @media (max-width: 560px) {
       .Aboutimage {
           width: 98%;
@@ -789,6 +801,13 @@
           margin-left: 14%;
           width: 120%;
       }
+      
+    .video-wrapper iframe {
+        width: 160%;
+        height: 32rem;
+        margin-left: 8%;
+        border-radius: 10px;
+    }
       .Video_items video {
           width: 128%;
           position: relative;
