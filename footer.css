@@ -365,6 +365,7 @@ form a:hover {
     }
 
     .Footer_Container {
+        width: 90%;
         height: 24rem;
     }
     .Footer_Esas {
@@ -438,6 +439,7 @@ form a:hover {
 
 
     .Footer_Container {
+        width: 89%;
         margin-top: 35px;
         height: 24rem;
     }
@@ -530,6 +532,7 @@ form a:hover {
     }
 
     .Footer_Container {
+        width: 85%;
     margin-top: 33px;
         height: 30rem;
         padding-top: 10px;
