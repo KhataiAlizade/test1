@@ -468,7 +468,7 @@ height: 0px;
       font-size: 15px;
     }
     .container {
-      margin-left: 2%;
+      margin-left: 5%;
     }
     .container2 {
         top: 5px;
@@ -480,8 +480,8 @@ height: 0px;
         width: 115%;
       }
       .firstpart {
-        width: 110%;
-        gap:10%;
+        width: 114%;
+        gap:35%;
       } 
       .Onfutureimg{
         width: 7.5rem;
