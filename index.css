@@ -451,16 +451,7 @@ height: 0px;
       z-index: 999999;
     }
   }
-  @keyframes slide-in {
-    from {
-      transform: translateX(100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateX(60%);
-      opacity: 1;
-    }
-  }
+ 
   @media ( max-width: 600px) {
   
     
@@ -477,7 +468,7 @@ height: 0px;
   
       .secondpart {
         height: 80px;
-        width: 115%;
+        width: 113%;
       }
       .firstpart {
         width: 114%;
