@@ -447,7 +447,7 @@ form a:hover {
 
 
     .Footer_Container {
-        width: 90%;
+        width: 92%;
         margin-top: 35px;
         height: 24rem;
     }
@@ -589,6 +589,7 @@ form a:hover {
         font-size: 19px;
     }
 }
+
 @media  (max-width: 360px){
     #Contact {
         width: 130%;
