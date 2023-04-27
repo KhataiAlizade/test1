@@ -129,9 +129,11 @@ height: 0px;
 
   }
 .Azeflag {
+  cursor: pointer;
   width: 100%;
 }
 .Engflag  {
+  cursor: pointer;
   width: 100%;
 }
 .secondpart {
@@ -165,7 +167,7 @@ height: 0px;
   font-size: 18px;
   color: #000000;
 }
-.Containeritem3 li.active {
+.Containeritem3 li a span.active {
  color: #52EAC3;
 }
 .Containeritem3 li span {
@@ -174,7 +176,7 @@ height: 0px;
 .Containeritem3 li span:hover {
   color: #52EAC3;
 }
-.Containeritem3 li span:active {
+.Containeritem3 li a span:active {
   color: #52EAC3;
 }
 
@@ -305,6 +307,7 @@ height: 0px;
     gap: 40%;
   }
   .Azdiv {
+    cursor: pointer;
     width: 2rem;
     margin-left: -4%;
     margin-top: -2px;
@@ -313,15 +316,18 @@ height: 0px;
     height: 0px;
   }
   .Endiv{
+    cursor: pointer;
     width: 2rem;
     margin-left: -10%;
     margin-top: -1.4px;
 
   }
   .Azeflag {
+    cursor: pointer;
     width: 70%;
   }
   .Engflag  {
+    cursor: pointer;
     width: 70%;
   }
     .container {
@@ -419,7 +425,7 @@ height: 0px;
       }
      
   }
-  @media ( max-width: 750px) {
+  @media ( max-width: 780px) {
     .firstpart {
       width: 103%;      
     }
@@ -427,6 +433,22 @@ height: 0px;
       background-image: url('./image/OnfutureKollektiv9.jpg');
       background-size: 100% 100%;
       width: 103%;
+    }
+
+    .Containermenu {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      background-color: #FFFFFF;
+      box-shadow: 10px 5px 10px 5px #d7d7d7;
+      height: 80rem;
+      font-size: 20px;
+      padding-right: 120px;
+      padding-left: 30px;
+      padding-top: 100px;
+      margin-right: -80px;
+      margin-top: -95px;
+      z-index: 999999;
     }
   }
   @keyframes slide-in {
@@ -455,6 +477,7 @@ height: 0px;
   
       .secondpart {
         height: 80px;
+        width: 115%;
       }
       .firstpart {
         width: 110%;
@@ -472,6 +495,7 @@ height: 0px;
       .fixed {
         position: fixed;
         top: 0;
+        width: 100%;
       }
       .Containeritem3 li {
         display: none;
@@ -486,7 +510,7 @@ height: 0px;
         font-size: 20px;
         padding-left: 30px;
         padding-top: 100px;
-        margin-right: -111px;
+        margin-right: -60px;
         z-index: 999999;
       }
     
@@ -542,7 +566,7 @@ height: 0px;
       }
   
       .secondpart {
-        width: 100%;
+        width: 140%;
         height: 80px;
       }
       .firstpart {
@@ -560,9 +584,13 @@ height: 0px;
       .Containeritem3 li {
         display: none;
       }
+      .secondpart {
+        position: relative;
+      }
       .fixed {
         position: fixed;
         top: 0;
+        width: 100%;
       }
       .Containermenu {
         display: flex;
@@ -574,7 +602,8 @@ height: 0px;
         font-size: 20px;
         padding-left: 30px;
         padding-top: 100px;
-        margin-right: -155px;
+        padding-right: 100px;
+        margin-right: -65px;
         z-index: 999999;
       }
     
@@ -582,9 +611,10 @@ height: 0px;
         display: block;
         right: -40px;
         top: -5px;
+        z-index: -1;
       } 
       .X-icon::before {
-        right: -15px;
+        right: -10px;
         top: -10px;
       }
       .thirdpart {
