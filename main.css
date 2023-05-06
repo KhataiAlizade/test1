@@ -554,7 +554,7 @@
           flex-direction: column;
       }
       .OnfutureTv {
-        width: 103%;
+        width: 100%;
         height: 22rem;
     }
       
@@ -591,7 +591,7 @@
   
     @media (max-width: 560px) {
       .Aboutimage {
-          width: 114%;
+          width: 98.5%;
           height: 24rem;
       }
       .Haqqimizda {
@@ -604,7 +604,7 @@
           font-size: 40px;
       }
       .LeftAbout {
-          width: 110%;
+          width: 100%;
           margin-bottom: 20px;
       } 
       .RightAbout h1 {
@@ -614,7 +614,7 @@
           font-size: 14.5px;
       }
       .OnfutureTv {
-        width: 114%;
+        width: 100%;
           height: 15rem;
       }
       .OnfutureTv h1 {
@@ -666,6 +666,7 @@
           margin-top: 30px;
       }
       .video-wrapper {
+        width: 100%;
           margin-left: 7%;
           height: 57rem;
           box-shadow: 0 0 10px rgba(0, 0, 0,0.0);
@@ -681,18 +682,18 @@
           top: 30px;
           gap: 15px;
           margin-left: 0%;
-          width: 100%;
+          width: 95%;
       }
       .Video_items1 ul li {
           list-style-type: disc;
           font-size: 16px;
           padding: 4px;
-          width:130%;
+          width:90%;
           border-radius: 8px;
       
       }
       .video-wrapper iframe {
-          width: 135%;
+          width: 95%;
           height: 32rem;
           margin-left: -5%;
           border-radius: 10px;
@@ -757,12 +758,12 @@
     
     @media (max-width: 360px) {
       .Aboutimage {
-          width: 128%;
+          width: 98%;
           height: 24rem;
       }
     
       .OnfutureTv {
-          width: 144%;
+          width: 100%;
           height: 15rem;
       }
       .OnfutureTv h1 {
@@ -777,13 +778,13 @@
       }
      
       .MainServices {
-          margin-left: 5%;
+          margin-left: 2.5%;
       }
       .MainServices div span {
           font-size: 20px;
       }
       .MainServices div  {
-          flex: 0 0 calc(126% - 0%); 
+          flex: 0 0 calc(96% - 0%); 
           margin-right: -20%;
       }
       
@@ -791,6 +792,7 @@
           margin-top: 20px;
       }
       .video-wrapper {
+        width: 100%;
           margin: 0;
           box-shadow: 0 0 10px rgba(0, 0, 0,0.0);
       }
@@ -799,14 +801,14 @@
           position: relative;
           top: 30px;
           gap: 10px;
-          margin-left: 14%;
-          width: 120%;
+          margin-left: 6%;
+          width: 100%;
       }
       
     .video-wrapper iframe {
-        width: 160%;
+        width: 97%;
         height: 32rem;
-        margin-left: 8%;
+        margin-left: 1%;
         border-radius: 10px;
     }
       .Video_items video {

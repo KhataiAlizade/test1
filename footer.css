@@ -512,6 +512,7 @@ form a:hover {
     #Contact {
         margin-top: 50px;
         height: 70rem;
+        width: 100%;
     }
     #Contact h1 {
         padding-top: 20px;
@@ -525,16 +526,16 @@ form a:hover {
         margin-top: 20px;
     }
     .Contact_container form {
-        width:97%;
+        width:100%;
     }
     .Contact_item{
-        gap:22%;
+        gap:10%;
     }
     .Contact_item input {
-     width: 134%;
+     width: 100%;
     }
     .Container_item {
-        width: 97%;
+        width: 99%;
         height: 100%;
         padding-bottom: 10px;
     }
@@ -571,6 +572,12 @@ form a:hover {
         margin-top: -8px;
         gap: 20px;
     }
+    .Epoct input {
+     width: 85%;
+    }
+    .Item_contact textarea {
+        width: 85%;
+    }
     .Phone::before {
         font-size: 19px;
     }
@@ -592,7 +599,7 @@ form a:hover {
 
 @media  (max-width: 360px){
     #Contact {
-        width: 130%;
+        width: 100%;
         height: 70rem;
     }
     #Contact h1 {
@@ -607,16 +614,22 @@ form a:hover {
         margin-top: 20px;
     }
     .Contact_container form {
-        width:97%;
+        width:100%;
     }
     .Contact_item{
-        gap:22%;
+        gap:7%;
     }
+    .Epoct input {
+        width: 85%;
+       }
+    .Item_contact textarea {
+           width: 85%;
+       }
     .Contact_item input {
-     width: 134%;
+     width: 99%;
     }
     .Container_item {
-        width: 97%;
+        width: 99%;
         height: 21rem;
     }
 }
