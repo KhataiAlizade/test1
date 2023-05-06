@@ -513,7 +513,7 @@ height: 0px;
         z-index: -1;
       } 
       .X-icon::before {
-        right: 20px;
+        right: 0px;
         top: 0px;
       }
       .thirdpart {
