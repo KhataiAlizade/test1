@@ -373,7 +373,8 @@ form a:hover {
     }
 
     .Footer_Container {
-        width: 100%;
+        width: 91%;
+        margin-right: 0px;
         height: 24rem;
     }
     .Footer_Esas {
