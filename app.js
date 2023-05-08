@@ -1,4 +1,4 @@
-
+document.body.style.overflow = 'hidden';
 let link = document.querySelectorAll("a"),
 Xidmetler1 = document.querySelector("#Xidmetler1");
 Xidmetler2 = document.querySelector("#Xidmetler2");
